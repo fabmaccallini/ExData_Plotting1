@@ -1,5 +1,5 @@
 # Exploratory Data Analysis - Course Project 1
-# Please download and extract the file form 'https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip'
+# Please download and extract the .txt file form 'https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip'
 # into the R working directory before running the code.
 
 data <- read.table("household_power_consumption.txt", header = TRUE, sep = ";")
