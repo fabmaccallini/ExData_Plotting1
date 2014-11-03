@@ -12,7 +12,7 @@ png(filename = "plot4.png")
 with(data.set, {
     par(mfrow = c(2, 2))
     # 1
-    plot(data.set$Date, data.set$Global_active_power, type = "l", xlab = "", ylab = expression("Global Active Power "("kilowatts")))
+    plot(data.set$Date, data.set$Global_active_power, type = "l", xlab = "", ylab = expression("Global Active Power"))
     # 2
     plot(data.set$Date, data.set$Voltage, type = "l", xlab = "datetime", ylab = colnames(data.set[5]))
     # 3
